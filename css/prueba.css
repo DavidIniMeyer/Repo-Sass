@@ -11,12 +11,15 @@ header {
   background-color: #212529; }
 
 footer {
+  padding-top: 300px;
   display: flex;
   justify-content: center;
   font-family: Times New Roman;
   line-height: 1.5;
   font-style: italic;
   font-weight: bold; }
+  footer .derechos {
+    background-color: #860000; }
 
 .bodynosotros {
   background-color: #303235; }

@@ -2,6 +2,10 @@
 @import "../sass2/mixins";
 
 footer{
+    padding-top: 300px;
     @include flexibilizar-centrar;
-    @include fuente
+    @include fuente;
+    .derechos{
+        background-color: $color-warning;
+    }
 }
