@@ -5,11 +5,12 @@
     background-color: $gris-oscuro;
 }
 .aviso{
+    padding-top: 80px;
     @include fuente;
     @include flexibilizar-centrar;
     .avisotext{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: $espacio30;
+        padding-bottom: $espacio30;
         background-color: $gris-claro;
         font-size: xx-large;
         border-radius: 10px;

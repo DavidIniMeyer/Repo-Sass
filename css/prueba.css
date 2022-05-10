@@ -19,12 +19,13 @@ footer {
   font-style: italic;
   font-weight: bold; }
   footer .derechos {
-    background-color: #860000; }
+    background-color: #400000; }
 
 .bodynosotros {
   background-color: #303235; }
 
 .aviso {
+  padding-top: 80px;
   font-family: Times New Roman;
   line-height: 1.5;
   font-style: italic;
