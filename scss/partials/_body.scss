@@ -1,5 +1,17 @@
 @import "../variables/variables";
+@import "../sass2/mixins";
 
 .bodynosotros{
-    background-color: $gris-claro;
+    background-color: $gris-oscuro;
+}
+.aviso{
+    @include fuente;
+    @include flexibilizar-centrar;
+    .avisotext{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $gris-claro;
+        font-size: xx-large;
+        border-radius: 10px;
+    }
 }
