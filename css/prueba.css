@@ -1,19 +1,22 @@
-.box_uno {
-  background-color: #484441;
-  width: #484441; }
+.divnav {
+  background-color: #212529; }
+
+.texnav {
+  font-family: Times New Roman; }
 
 header {
-  background-color: gray; }
-  header nav {
-    text-align: center; }
-    header nav a {
-      display: flex;
-      justify-content: space-between;
-      text-decoration: none;
-      color: #ffb888;
-      font-family: 'Times New Roman', Times, serif; }
-      header nav a:hover {
-        color: #e4dcd7; }
+  background-color: #212529; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: Times New Roman;
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: bold; }
+
+.bodynosotros {
+  background-color: #303235; }
 
 * {
   margin: 0;

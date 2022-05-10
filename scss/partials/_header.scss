@@ -1,16 +1,6 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
 header{
-    background-color: gray;
-    nav{
-        text-align: center;
-        a{
-            display: flex;
-            justify-content: space-between;
-            text-decoration: none;
-            color: #ffb888;
-            font-family: 'Times New Roman', Times, serif;
-            &:hover{
-                color: #e4dcd7;
-            }
-        }
-    }
+    background-color: $fondo-de-color;
 }

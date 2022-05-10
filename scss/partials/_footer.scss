@@ -1,0 +1,7 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+footer{
+    @include flexibilizar-centrar;
+    @include fuente
+}

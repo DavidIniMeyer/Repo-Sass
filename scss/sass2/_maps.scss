@@ -1,0 +1,14 @@
+@import "../variables/variables";
+
+$nav:(
+    color: $fondo-de-color,
+    centro: $alinear-al-centro,
+    letra: $tipo-de-letra,
+);
+
+.divnav{
+    background-color: map-get($nav, color);
+}
+.texnav{
+    font-family: map-get($nav, letra);
+}
