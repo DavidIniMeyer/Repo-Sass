@@ -1,0 +1,16 @@
+header{
+    background-color: gray;
+    nav{
+        text-align: center;
+        a{
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            color: red;
+            font-family: 'Times New Roman', Times, serif;
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}
