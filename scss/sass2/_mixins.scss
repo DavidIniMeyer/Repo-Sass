@@ -14,3 +14,22 @@
     text-decoration: none;
     font-family: $tipo-de-letra;
 }
+@mixin tabla-nav{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,100px 250px);
+    grid-template-rows: repeat(4, 70px);
+    justify-content: center;
+}
+@mixin borde-tabla {
+    background-color: #404347;
+    border: #2a0101 2px solid;
+    margin-bottom: 0;
+    color: #c7c4c4;
+}
+@mixin text-tabla {
+    text-decoration: none;
+    background-color: #404347;
+    border: #2a0101 2px solid;
+    color: #c7c4c4;
+}

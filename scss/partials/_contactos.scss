@@ -1,0 +1,24 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+.contactonav{
+    @include tabla-nav;
+    .contactop{
+        @include borde-tabla;
+    }
+}
+.contactoa{
+    @include text-tabla;
+}
+
+.fondo-titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #404347;
+}
+.fondo-titulo{
+    font-size: larger;
+    color: #c7c4c4;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
