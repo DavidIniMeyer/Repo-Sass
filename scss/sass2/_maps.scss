@@ -4,6 +4,7 @@ $nav:(
     color: $fondo-de-color,
     centro: $alinear-al-centro,
     letra: $tipo-de-letra,
+    italic: $letra-cursiva,
     espacio: $espacio30,
 );
 
@@ -12,6 +13,7 @@ $nav:(
 }
 .texnav{
     font-family: map-get($nav, letra);
+    font-style: map-get($nav, italic);
 }
 .espacios{
     padding-left: map-get($nav, espacio);
