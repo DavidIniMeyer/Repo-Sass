@@ -1,9 +1,6 @@
 @import "../variables/variables";
 @import "../sass2/mixins";
 
-.bodynosotros{
-    background-color: $gris-oscuro;
-}
 .aviso{
     padding-top: 80px;
     @include fuente;
