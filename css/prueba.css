@@ -37,6 +37,13 @@ footer {
     font-size: xx-large;
     border-radius: 10px; }
 
+.divcontact {
+  display: flex;
+  flex-direction: column; }
+
+.divform {
+  justify-content: right; }
+
 .contactonav {
   padding-top: 50px;
   padding-left: 25px;
@@ -49,21 +56,6 @@ footer {
   text-decoration: none;
   color: black; }
 
-.fondo-titulo {
-  display: flex;
-  justify-content: center; }
-
-.fondo-titulo {
-  font-size: larger;
-  margin-top: 100px;
-  margin-bottom: 15px; }
-
 * {
   margin: 0;
   padding: 0; }
-
-.mapa{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}

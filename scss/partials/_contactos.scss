@@ -1,6 +1,13 @@
 @import "../variables/variables";
 @import "../sass2/mixins";
 
+.divcontact{
+    display: flex;
+    flex-direction: column;
+}
+.divform{
+    justify-content: right
+}
 .contactonav{
     @include tabla-nav;
     .contactop{
@@ -11,12 +18,12 @@
     @include text-tabla;
 }
 
-.fondo-titulo{
-    display: flex;
-    justify-content: center;
-}
-.fondo-titulo{
-    font-size: larger;
-    margin-top: 100px;
-    margin-bottom: 15px;
-}
+// .fondo-titulo{
+//     display: flex;
+//     justify-content: center;
+// }
+// .fondo-titulo{
+//     font-size: larger;
+//     margin-top: 100px;
+//     margin-bottom: 15px;
+// }
