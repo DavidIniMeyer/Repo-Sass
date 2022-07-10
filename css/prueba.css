@@ -48,9 +48,20 @@ footer {
     margin-bottom: 0;
     color: black; }
 
+.contactop {
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 0px;
+  margin-top: 5px; }
+
 .contactoa {
   text-decoration: none;
-  color: black; }
+  color: black;
+  margin-bottom: 1px; }
+
+.btnenviar {
+  color: white;
+  background-color: black;
+  margin-bottom: 15px; }
 
 * {
   margin: 0;
