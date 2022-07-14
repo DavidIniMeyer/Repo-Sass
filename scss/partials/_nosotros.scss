@@ -1,6 +1,60 @@
 @import "../variables/variables";
 @import "../sass2/mixins";
 
-.divnosotros{
+.divnossup{
+    padding-top: 3.125rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.titulo-quintafaz{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+.h1estudio{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.375rem;
+    margin-bottom: 0px;
+    padding-left: 3.438rem;
+}
+.pdeltitulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.875rem;
+    padding-left: 3.438rem;
+}
+.estudiotext{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    padding-right: 8rem;
+}
+.divnosinf{
+display: grid;
+grid-template-columns: 20% 10% 35% 35%;
+
+}
+.divnosh3{
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    justify-content: flex-end;
+}
+.h3nos{
+    writing-mode: vertical-lr;
+    letter-spacing: 1rem;
+}
+.nosicons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.texticons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
