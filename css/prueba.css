@@ -265,3 +265,17 @@ footer {
 * {
   margin: 0;
   padding: 0; }
+
+@media screen and (max-width: 1030px) {
+  .gridproyect {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .linea {
+    border-bottom: 2px solid;
+    margin-right: 0rem; }
+  .divfoto2{
+    margin-top: 2rem;
+    }
+}
