@@ -312,4 +312,66 @@ footer {
 @media screen and (max-width: 540px) {
   .divproyecto {
     margin: 1rem 1rem 1rem 1rem; }
-}
+  .gridproyect {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .foto1 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto2 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto3 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto4 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto5 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto6 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto7 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .foto8 {
+    width: 15rem;
+    height: 6rem;
+    transition: all 500ms ease; }
+  .divfoto1{
+      height: 7.5rem;
+    }
+  .divfoto2{
+      margin-top: 2rem;
+      height: 7.5rem;
+      }
+  .divfoto3{
+      height: 7.5rem;
+      }
+  .divfoto4{
+      height: 7.5rem;
+      }
+  .divfoto5{
+      height: 7.5rem;
+      }
+  .divfoto6{
+      height: 7.5rem;
+      }
+  .divfoto7{
+      height: 7.5rem;
+      }
+  .divfoto8{
+      height: 7.5rem;
+      }
+  }
