@@ -309,3 +309,7 @@ footer {
     width: 25rem;
     }
 }
+@media screen and (max-width: 540px) {
+  .divproyecto {
+    margin: 1rem 1rem 1rem 1rem; }
+}
