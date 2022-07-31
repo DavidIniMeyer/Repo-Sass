@@ -5,7 +5,7 @@
 .divnos{
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 2rem;
+    padding-top: 6rem;
 }
 .titulosnos{
     display: flex;
@@ -15,10 +15,10 @@
     margin-bottom: 0rem;
 }
 .divnosquintafaz{
-    padding: 1rem 5rem 1rem 10rem;
+    padding: 0rem 5rem 0rem 15rem;
 }
 .divnosservicios{
-    padding: 1rem 10rem 1rem 5rem;
+    padding: 0rem 15rem 0rem 5rem;
 }
 .lineanos{
     border-top: 0.3rem solid;
@@ -35,5 +35,5 @@
 }
 .lineanosabajo{
     border-top: 0.3rem solid;
-    margin: 0rem 10rem 0rem 10rem;
+    margin: 0rem 15rem 0rem 15rem;
 }
