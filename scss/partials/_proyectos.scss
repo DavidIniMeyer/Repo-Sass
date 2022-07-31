@@ -134,10 +134,16 @@
     margin-bottom: 0rem;
 }
 @media screen and (max-width: 860px){
+    .divproyecto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .gridproyect{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
     .divfoto2{
         margin-top: 2rem;
