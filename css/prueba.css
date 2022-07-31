@@ -63,6 +63,41 @@ footer {
   background-color: black;
   margin-bottom: 15px; }
 
+.divnos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 2rem; }
+
+.titulosnos {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 0rem; }
+
+.divnosquintafaz {
+  padding: 1rem 5rem 1rem 10rem; }
+
+.divnosservicios {
+  padding: 1rem 10rem 1rem 5rem; }
+
+.lineanos {
+  border-top: 0.3rem solid;
+  margin-bottom: 3rem; }
+
+.divtextnos {
+  display: flex;
+  flex-direction: column; }
+
+.textnos {
+  font-size: larger;
+  font-weight: bold;
+  padding-top: 1rem; }
+
+.lineanosabajo {
+  border-top: 0.3rem solid;
+  margin: 0rem 10rem 0rem 10rem; }
+
 .divproyecto {
   margin: 1rem 7rem 1rem 7rem; }
 
