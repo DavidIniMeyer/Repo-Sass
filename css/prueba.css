@@ -96,6 +96,15 @@ footer {
   display: flex;
   flex-direction: column; }
 
+.divtextservicios {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center; }
+
+.numnos {
+  width: 3.5rem;
+  height: 3.5rem; }
+
 .textnos {
   font-size: larger;
   font-weight: bold;
@@ -103,7 +112,7 @@ footer {
 
 .lineanosabajo {
   border-top: 0.3rem solid;
-  margin: 0rem 15rem 0rem 15rem; }
+  margin: 0rem 15rem 1rem 15rem; }
 
 @media screen and (max-width: 990px) {
   .divnos {
