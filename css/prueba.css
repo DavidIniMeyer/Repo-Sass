@@ -62,8 +62,7 @@ footer {
   text-decoration: none;
   color: black;
   margin-bottom: 1px;
-  font-size: 1rem;
-  font-weight: bold; }
+  font-size: 1rem; }
 
 .btnenviar {
   color: white;
@@ -72,7 +71,7 @@ footer {
 
 .divnos {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 47% 6% 47%;
   padding-top: 6rem; }
 
 .titulosnos {
@@ -107,7 +106,6 @@ footer {
 
 .textnos {
   font-size: larger;
-  font-weight: bold;
   padding-top: 1rem; }
 
 .lineanosabajo {
