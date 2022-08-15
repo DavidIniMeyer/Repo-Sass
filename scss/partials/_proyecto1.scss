@@ -1,0 +1,28 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+.divcarrusel{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 27rem;
+}
+.divpro{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.img1{
+    width: 7rem;
+    height: 6rem;
+}
+.img2{
+    width: 7rem;
+    height: 6rem;
+}
+.img3{
+    width: 7rem;
+    height: 6rem;
+}

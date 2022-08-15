@@ -4,7 +4,7 @@
 
 .divnos{
     display: grid;
-    grid-template-columns: 47% 6% 47%;
+    grid-template-columns: 50% 50%;
     padding-top: 6rem;
 }
 .titulosnos{
@@ -24,6 +24,9 @@
     border-top: 0.3rem solid;
     margin-bottom: 3rem;
 }
+.lineaser{
+    margin-left: 2.9rem;
+}
 .divtextnos{
     display: flex;
     flex-direction: column;
@@ -40,11 +43,12 @@
 //     align-items: flex-end;
 // }
 .numnos{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+
 }
 .textnos{
-    font-size: larger;
+    font-size: large;
     // font-weight:bold;
     padding-top: 1rem;
 }

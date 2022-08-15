@@ -71,7 +71,7 @@ footer {
 
 .divnos {
   display: grid;
-  grid-template-columns: 47% 6% 47%;
+  grid-template-columns: 50% 50%;
   padding-top: 6rem; }
 
 .titulosnos {
@@ -91,6 +91,9 @@ footer {
   border-top: 0.3rem solid;
   margin-bottom: 3rem; }
 
+.lineaser {
+  margin-left: 2.9rem; }
+
 .divtextnos {
   display: flex;
   flex-direction: column; }
@@ -101,11 +104,11 @@ footer {
   align-items: center; }
 
 .numnos {
-  width: 3.5rem;
-  height: 3.5rem; }
+  width: 2.5rem;
+  height: 2.5rem; }
 
 .textnos {
-  font-size: larger;
+  font-size: large;
   padding-top: 1rem; }
 
 .lineanosabajo {
@@ -275,6 +278,30 @@ footer {
     align-items: center; }
   .divfoto2 {
     margin-top: 2rem; } }
+
+.divcarrusel {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 27rem; }
+
+.divpro {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.img1 {
+  width: 7rem;
+  height: 6rem; }
+
+.img2 {
+  width: 7rem;
+  height: 6rem; }
+
+.img3 {
+  width: 7rem;
+  height: 6rem; }
 
 * {
   margin: 0;
