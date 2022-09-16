@@ -286,24 +286,15 @@ footer {
   height: 27rem; }
 
 .divpro {
-  padding-left: 2rem;
+  padding-top: 1rem;
   display: flex;
-  flex-direction: column;
   justify-content: space-between; }
 
-.img1 {
-  width: 9rem;
-  height: 6rem; }
+.imgquinta {
+  width: 8rem;
+  height: 5rem; }
 
-.img2 {
-  width: 9rem;
-  height: 6rem; }
-
-.img3 {
-  width: 9rem;
-  height: 6rem; }
-
-.titproyect1 {
+.tproyect1 {
   font-family: 'Bebas Neue', cursive; }
 
 .textproyect1 {
