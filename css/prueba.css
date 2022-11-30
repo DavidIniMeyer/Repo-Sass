@@ -12,15 +12,20 @@ header {
   background-color: #212529; }
 
 footer {
-  padding-top: 300px;
+  padding-top: 3rem;
   display: flex;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
   font-style: italic;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: small; }
   footer .derechos {
-    background-color: #400000; }
+    background-color: #ff00004c;
+    height: 24px; }
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; }
 
 .aviso {
   padding-top: 80px;
@@ -28,6 +33,7 @@ footer {
   line-height: 1.5;
   font-style: italic;
   font-weight: bold;
+  font-size: small;
   display: flex;
   justify-content: center; }
   .aviso .avisotext {

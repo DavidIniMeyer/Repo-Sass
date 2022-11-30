@@ -2,13 +2,15 @@
 
 @mixin flexibilizar-centrar {
     display: flex;
-    justify-content: $alinear-al-centro;    
+    justify-content: $alinear-al-centro;  
+    
 }
 @mixin fuente {
     font-family: $tipo-de-letra;
     line-height: 1.5;
     font-style: italic;
     font-weight: bold;
+    font-size: small;
 }
 @mixin estilo-de-ancla{
     text-decoration: none;

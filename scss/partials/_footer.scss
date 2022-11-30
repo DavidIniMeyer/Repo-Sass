@@ -1,11 +1,21 @@
 @import "../variables/variables";
 @import "../sass2/mixins";
 
-footer{
-    padding-top: 300px;
+footer {
+    padding-top: 3rem;
     @include flexibilizar-centrar;
     @include fuente;
-    .derechos{
+
+    .derechos {
         background-color: $color-warning;
+        height: 24px;
     }
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
