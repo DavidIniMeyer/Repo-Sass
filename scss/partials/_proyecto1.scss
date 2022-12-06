@@ -1,6 +1,15 @@
 @import "../variables/variables";
 @import "../sass2/mixins";
 
+.divproyect1{
+display: flex;
+justify-content: center;
+width: 85%;
+height: 85%;
+padding-top: 3rem;
+padding-bottom: 3rem;
+flex-direction: column;
+}
 .divcarrusel{
     // padding-top: 3rem;
     padding: 4rem;
