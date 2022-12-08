@@ -159,6 +159,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto1 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -174,6 +175,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto2 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -190,6 +192,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto3 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -206,6 +209,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto4 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -215,13 +219,14 @@ footer {
 
 .foto5 {
   width: 25rem;
-  height: 16rem;
+  height: 20rem;
   transition: all 500ms ease; }
 
 .divfoto5 .foto5:hover {
   transform: scale(1.1); }
 
 .textfoto5 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -238,6 +243,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto6 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -254,6 +260,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto7 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
@@ -270,6 +277,7 @@ footer {
   transform: scale(1.1); }
 
 .textfoto8 {
+  padding-top: 0.7rem;
   margin-bottom: 0rem;
   font-weight: bold; }
 
