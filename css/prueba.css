@@ -134,7 +134,7 @@ footer {
   .divnos {
     display: grid;
     grid-template-columns: 100%;
-    padding: 2rem; }
+    padding: 1rem; }
   .divnosquintafaz {
     padding: 0rem 0rem 0rem 0rem; }
   .divnosservicios {
@@ -146,6 +146,13 @@ footer {
     margin-left: 0rem; }
   .divtextservicios {
     grid-template-columns: 5% 95%; } }
+
+@media screen and (max-width: 550px) {
+  .numnos {
+    width: 1.5rem;
+    height: 1.5rem; }
+  .textnos {
+    font-size: small; } }
 
 .divproyecto {
   margin: 1rem 7rem 1rem 7rem; }
