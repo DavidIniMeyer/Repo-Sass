@@ -181,7 +181,8 @@ footer {
 
 .textfoto1 {
   padding-top: 0.7rem;
-  margin-bottom: 0rem; }
+  margin-bottom: 0rem;
+  font-weight: bold; }
 
 .divfoto2 {
   transition: all 500ms ease; }
