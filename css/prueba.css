@@ -115,11 +115,20 @@ footer {
 
 .textnos {
   font-size: large;
-  padding-top: 1rem; }
+  padding-top: 0.4rem; }
 
 .lineanosabajo {
   border-top: 0.3rem solid;
   margin: 0rem 15rem 1rem 15rem; }
+
+.textserv {
+  margin-top: 1.2rem; }
+
+.numnospadd {
+  margin-top: 1rem; }
+
+.numnosmargin {
+  margin-bottom: 0.5rem; }
 
 @media screen and (max-width: 990px) {
   .divnos {
