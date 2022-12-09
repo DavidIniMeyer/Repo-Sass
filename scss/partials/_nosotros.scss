@@ -61,6 +61,7 @@
     .divnos{
         display: grid;
         grid-template-columns: 100%;
+        padding: 2rem;
     }
     .divnosquintafaz{
         padding: 0rem 0rem 0rem 0rem;
@@ -71,5 +72,11 @@
     .titulosnos{
         display: flex;
         justify-content: center;
+    }
+    .lineaser{
+        margin-left: 0rem;
+    }
+    .divtextservicios{
+        grid-template-columns: 5% 95%;
     }
 }
