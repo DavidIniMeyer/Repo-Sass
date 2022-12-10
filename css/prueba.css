@@ -97,9 +97,6 @@ footer {
   border-top: 0.3rem solid;
   margin-bottom: 3rem; }
 
-.lineaser {
-  margin-left: 2.9rem; }
-
 .divtextnos {
   display: flex;
   flex-direction: column; }
@@ -130,6 +127,10 @@ footer {
 .numnosmargin {
   margin-bottom: 0.5rem; }
 
+@media screen and (max-width: 1060px) {
+  .textserv {
+    margin-top: 3rem; } }
+
 @media screen and (max-width: 990px) {
   .divnos {
     display: grid;
@@ -142,8 +143,6 @@ footer {
   .titulosnos {
     display: flex;
     justify-content: center; }
-  .lineaser {
-    margin-left: 0rem; }
   .divtextservicios {
     grid-template-columns: 5% 95%; } }
 
