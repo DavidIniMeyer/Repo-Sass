@@ -7,11 +7,13 @@ footer {
     @include fuente;
 
     .derechos {
-        background-color: $color-warning;
+        // background-color: $color-warning;
         height: 24px;
     }
 }
-
+.textfooter{
+    margin-top: 0.2rem;
+}
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,

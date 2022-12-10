@@ -21,8 +21,10 @@ footer {
   font-weight: bold;
   font-size: small; }
   footer .derechos {
-    background-color: #ff00004c;
     height: 24px; }
+
+.textfooter {
+  margin-top: 0.2rem; }
 
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; }
@@ -150,7 +152,9 @@ footer {
     display: flex;
     justify-content: center; }
   .divtextservicios {
-    grid-template-columns: 5% 95%; } }
+    grid-template-columns: 5% 95%; }
+  .numnospadd {
+    margin-top: 2.3rem; } }
 
 @media screen and (max-width: 550px) {
   .numnos {
