@@ -75,6 +75,12 @@ footer {
   background-color: black;
   margin-bottom: 15px; }
 
+@media screen and (max-width: 990px) {
+  .paddcontact {
+    margin-left: 0.1rem; }
+  .paddform {
+    padding-top: 0.5rem; } }
+
 .divnos {
   display: grid;
   grid-template-columns: 50% 50%;
