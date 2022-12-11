@@ -149,11 +149,12 @@
     margin-bottom: 0rem;
     font-weight: bold;
 }
-@media screen and (max-width: 860px){
+@media screen and (max-width: 1070px){
     .divproyecto{
         display: flex;
         flex-direction: column;
         align-items: center;
+        // margin-left: 2rem;
     }
     .gridproyect{
         display: flex;
@@ -163,5 +164,12 @@
     }
     .divfoto2{
         margin-top: 2rem;
+    }
+    .textmedia{
+        display: flex;
+        justify-content: center;
+    }
+    .linea{
+        margin-right: 0;
     }
 }
